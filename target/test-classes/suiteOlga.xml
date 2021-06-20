@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestAutomation">
+    <test name="Test">
+        <classes>
+        <class name="nov.issoft.testing.EmailTest"></class>
+            <parameter name="userName_1" value="test000.automation@yandex.by"></parameter>
+            <parameter name="password_1" value="Testing&amp;2021"></parameter>
+            <parameter name="recipient_1" value="test000.automation@yandex.by"></parameter>
+            <parameter name="subject" value="test"></parameter>
+            <parameter name="body" value="test sending email"></parameter>
+        </classes>
+    </test>
+</suite>
